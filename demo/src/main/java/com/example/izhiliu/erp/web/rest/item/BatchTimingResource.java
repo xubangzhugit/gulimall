@@ -20,7 +20,7 @@ public  class BatchTimingResource  {
 
     /**
      *
-      * @param ids   这个是productId 哦~
+      * @param ids    这个是productId 哦~
      * @return
      */
     @PostMapping("/batch/product")
