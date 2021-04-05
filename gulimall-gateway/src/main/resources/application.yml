@@ -1,0 +1,51 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: baidu_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+        - id: qq_route
+          uri: https://www.qq.com
+          predicates:
+            - Query=url,qq
+        - id: product_route
+          uri: lb://product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/product/(?<segment>/?.*), /product/$\{segment}
+        - id: thrid_party_route
+          uri: lb://gulimall-thrid-party
+          predicates:
+            - Path=/api/thridparty/**
+          filters:
+            - RewritePath=/api/thridparty/(?<segment>/?.*), /$\{segment}
+        - id: member_route
+            uri: lb://product
+            predicates:
+              - Path=/api/member/**
+            filters:
+              - RewritePath=/api/member/(?<segment>/?.*), /member/$\{segment}
+        - id: ware_route
+            uri: lb://product
+            predicates:
+              - Path=/api/ware/**
+            filters:
+              - RewritePath=/api/ware/(?<segment>/?.*), /ware/$\{segment}
+
+        - id: rewritepath_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
+        - id: nginxIn_route
+          uri: lb://product
+          predicates:
+            - Host=xubangzhu.com
+        - id: search_route
+          uri: lb://gulimal-search
+          predicates:
+            - Host=search.xubangzhu.com

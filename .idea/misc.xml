@@ -3,4 +3,25 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dulimall_product/pom.xml" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/member/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/ware/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall_ware/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-thrid-party/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-cat/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK" />
 </project>

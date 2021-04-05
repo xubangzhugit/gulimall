@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gulimall-thrid-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud: #阿里云对象存储服务
+      secret-key: Aejv6j7rqiKLCiO8i1DuwozR2yuJxN
+      access-key: LTAI4G9Vnxr9gR8eUwt2EyUk
+      oss:
+        endpoint: oss-cn-shenzhen.aliyuncs.com
+  smssend: # 短信验证码配置
+    host: https://gyytz.market.alicloudapi.com
+    path: /sms/smsSend
+    templateid: 908e94ccf08b4476ba6c876d13f084ad
+    appcode: 4d7e79dc7aea484294fd4feaef960b74
+    sms-sign-id: 2e65b1bb3d054466b82f0c9d125465e2
+server:
+  port: 12000
+
+

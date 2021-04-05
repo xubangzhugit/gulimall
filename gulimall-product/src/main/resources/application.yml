@@ -1,0 +1,38 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.33.100:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: ROOT
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    application:
+      name: product
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  redis:
+    host: 192.168.33.100
+    port: 6379
+  cache:
+    type: redis #缓存的类型
+    redis:
+      time-to-live: 60000 #单位毫秒
+      key-prefix: CACHE_ # 缓存key的前缀
+      use-key-prefix: true # 是否使用缓存key前缀
+      cache-null-values: true # 是否缓存空值，防止缓存穿透
+# 全局日期格式化
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto   # mybatis plus配置数据库主键自增
+      logic-delete-value: 1     #配置mybatis plus 逻辑删除字段值
+      logic-not-delete-value: 0#配置mybatis plus 逻辑不删除字段值
+server:
+  port: 10000
+logging:
+  level:
+    com.example.gulimall: debug
