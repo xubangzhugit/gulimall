@@ -1,6 +1,7 @@
 package com.example.gulimall.product;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.example.gulimall.product.entity.BrandEntity;
 import com.example.gulimall.product.service.BrandService;
 import lombok.extern.slf4j.Slf4j;
@@ -91,7 +92,7 @@ class GulimallProductApplicationTests {
                 }catch(Exception e){
                     e.printStackTrace();
                 }finally{
-
+                    String timeId = IdWorker.getTimeId(); //mybatisPlus自带的id生成工具类
                 }
                 redisLockTest();
             }
