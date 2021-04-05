@@ -7,7 +7,7 @@ spring:
         server-addr: 127.0.0.1:8848
     alicloud: #阿里云对象存储服务
       secret-key: Aejv6j7rqiKLCiO8i1DuwozR2yuJxN
-      access-key: LTAI4G9Vnxr9gR8eUwt2EyUk
+      access-key: 
       oss:
         endpoint: oss-cn-shenzhen.aliyuncs.com
   smssend: # 短信验证码配置
