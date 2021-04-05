@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ace333d2-c882-4c93-8648-1594e12d29a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/com/example/gulimall/product/GulimallProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/test/java/com/example/gulimall/product/GulimallProductApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="ace333d2-c882-4c93-8648-1594e12d29a5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/dulimall_product/target/" />
     <ignored path="$PROJECT_DIR$/ware/target/" />
     <ignored path="$PROJECT_DIR$/order/target/" />
@@ -186,6 +184,32 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="newbranchtest" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -354,7 +378,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617611838863" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617612498607" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/test/resources/bpmn1.png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -720,7 +744,7 @@
       <workItem from="1616740301759" duration="10202000" />
       <workItem from="1616811645582" duration="24368000" />
       <workItem from="1617028333153" duration="129000" />
-      <workItem from="1617596407095" duration="6966000" />
+      <workItem from="1617596407095" duration="7622000" />
     </task>
     <task id="LOCAL-00001" summary="add struct">
       <created>1598612602144</created>
@@ -779,7 +803,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301371000" />
+    <option name="totallyTimeSpent" value="302027000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -793,7 +817,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.2153518" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.20255864" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -812,7 +836,7 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946696" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7697228" weight="0.33741647" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.30916846" side_tool="true" visible="true" weight="0.13585746" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.30916846" side_tool="true" visible="true" weight="0.13585746" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.65085286" weight="0.29175946" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4978678" weight="0.033407573" />
       <window_info anchor="bottom" id="JProfiler" order="13" />
