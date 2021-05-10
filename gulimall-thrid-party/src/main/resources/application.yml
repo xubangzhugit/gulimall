@@ -6,16 +6,16 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
     alicloud: #阿里云对象存储服务
-      secret-key: Aejv6j7rqiKLCiO8i1DuwozR2yuJxN
+      secret-key: 
       access-key: 
       oss:
-        endpoint: oss-cn-shenzhen.aliyuncs.com
+        endpoint: 
   smssend: # 短信验证码配置
-    host: https://gyytz.market.alicloudapi.com
+    host: 
     path: /sms/smsSend
-    templateid: 908e94ccf08b4476ba6c876d13f084ad
-    appcode: 4d7e79dc7aea484294fd4feaef960b74
-    sms-sign-id: 2e65b1bb3d054466b82f0c9d125465e2
+    templateid: 
+    appcode: 
+    sms-sign-id: 
 server:
   port: 12000
 
